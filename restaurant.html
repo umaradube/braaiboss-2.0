@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Menu - Braai Boss</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/umd/lucide.min.js"></script>
+</head>
+<body>
+    <nav> </nav>
+
+    <section id="menu" style="margin-top: 80px;">
+        <div class="container">
+            <div class="section-title">
+                <h2>THE BRAAI <span class="gold-shimmer">MENU</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=800">
+                    <div class="card-content">
+                        <div style="display:flex; justify-content:space-between">
+                            <h3 class="gold-shimmer">Braaied Beef Ribs</h3>
+                            <span class="gold-solid">R245</span>
+                        </div>
+                        <p>Tender beef ribs basted in signature BBQ sauce.</p>
+                    </div>
+                </div>
+                </div>
+
+            <div id="delivery" style="margin-top: 8rem; padding-top: 4rem;">
+                <div class="section-title">
+                    <h2>ORDER <span class="gold-shimmer">DELIVERY</span></h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="grid" style="max-width: 900px; margin: 0 auto;">
+                    <div class="card" style="text-align: center; padding: 3rem;" onclick="window.open('https://ubereats.com')">
+                        <i data-lucide="utensils-crossed" style="color:#D4AF37; width:64px; height:64px; margin-bottom:1rem;"></i>
+                        <h3>UBER EATS</h3>
+                    </div>
+                    <div class="card" style="text-align: center; padding: 3rem;" onclick="window.open('https://mrdfood.com')">
+                        <i data-lucide="flame" style="color:#D4AF37; width:64px; height:64px; margin-bottom:1rem;"></i>
+                        <h3>MR D FOOD</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
